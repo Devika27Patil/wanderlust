@@ -4,4 +4,4 @@ services:
     env: node
     plan: free
     buildCommand: npm install --legacy-peer-deps
-    startCommand: npm start
+    startCommand: node app.js
